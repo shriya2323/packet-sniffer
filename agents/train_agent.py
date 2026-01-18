@@ -1,10 +1,14 @@
+import sys
+import os
+# Add the project root directory to the Python path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 import gymnasium as gym
 from envs.trace_env import TraceEnv
 import torch
 from torch import nn
 from torch.optim import Adam
 import numpy as np
-import os
 
 # ----------------------------
 # Simple Policy Network

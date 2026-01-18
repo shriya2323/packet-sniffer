@@ -1,3 +1,8 @@
+import sys
+import os
+# Add the project root directory to the Python path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from envs.trace_env import TraceEnv
 import torch
 from agents.train_agent import PolicyNet
