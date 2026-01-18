@@ -6,6 +6,8 @@ The Packet Sniffer RL project presents an innovative approach to network securit
 
 Our solution transforms raw network packets into behavioral event sequences, which are then processed by a trained neural network to predict the likelihood of malicious activity. This approach enables the system to detect previously unseen attack patterns and adapt to evolving threat landscapes.
 
+![Demo Screenshot](img/demo1.png)
+
 ## Technical Architecture
 
 The system implements a distributed architecture with three primary components:
@@ -234,5 +236,3 @@ The system addresses critical needs in:
 - MLOps practices (model versioning, evaluation, deployment)
 
 This project represents a sophisticated integration of multiple cutting-edge technologies to address a critical cybersecurity challenge, demonstrating both theoretical understanding and practical implementation capabilities in AI-driven security solutions.
-
-![Demo Screenshot](@img/demo1.png)
